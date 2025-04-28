@@ -6,16 +6,11 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.10"
-    # Add conda support
-    conda: "latest"
-
-conda:
-  environment: environment.yml
 
 sphinx:
   configuration: docs/conf.py
 
-# Install the local package from pyproject.toml
+
 python:
   install:
     - method: pip
