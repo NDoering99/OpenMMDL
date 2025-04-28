@@ -1,8 +1,8 @@
 name: docs
 
 channels:
-  - conda-forge  # Add the conda-forge channel here
-  - nodefaults
+  - conda-forge 
+
 
 dependencies:
   - pip
@@ -28,5 +28,6 @@ dependencies:
   - mdonatello
   - numba>=0.59.1
   - jupyter
+  - openmmdl
 
 
